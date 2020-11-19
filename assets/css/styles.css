@@ -6,6 +6,9 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+body{
+    font-family: 'montserratregular';
+}
 /*General/*/
 
 
@@ -27,3 +30,13 @@
 
 
 /*Header/*/
+
+/*Fonts
+    font-family: 'montserratregular';
+    font-family: 'montserratbold';
+    
+    font-family: 'droid_serifitalic';
+    font-family: 'roboto_slabregular';
+    font-family: 'wisdom_scriptregular';
+    font-family: 'FontAwesome';
+*/
