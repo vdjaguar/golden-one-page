@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 *{
     padding: 0;
     margin: 0;
 
+=======
+* {
+    padding: 0;
+    margin: 0;
+    
+>>>>>>> a51b97a6d1c589f29d1287f4a18b8b2751a88fd3
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
 .comtainer_two{
     text-align: center;
 }
@@ -44,3 +52,39 @@
     width: 33.33%;
     
 }
+=======
+body{
+    font-family: 'montserratregular';
+}
+/*General/*/
+
+
+
+/*Header*/
+
+ .home {
+     width: 1400px;
+     max-width: 100%;
+     height: 700px;
+     max-height: 100%;
+     background-color: #ffffff;
+     background-image: url(../img/bg.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+ }
+
+
+
+/*Header/*/
+
+/*Fonts
+    font-family: 'montserratregular';
+    font-family: 'montserratbold';
+    
+    font-family: 'droid_serifitalic';
+    font-family: 'roboto_slabregular';
+    font-family: 'wisdom_scriptregular';
+    font-family: 'FontAwesome';
+*/
+>>>>>>> a51b97a6d1c589f29d1287f4a18b8b2751a88fd3
