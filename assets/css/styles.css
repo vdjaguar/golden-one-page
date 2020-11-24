@@ -34,12 +34,58 @@
     
 }
 
-.navigation {
-    font-size: 14px;
-}
 
 .logo {
     font-size: 26px;
+    font-family: 'wisdom_scriptregular';
+    padding-top: 44px;
+
+}
+
+.logo > a {
+    text-decoration: none;    
+    color: #e3bb36;
+}
+
+.logo > a:active {
+    text-decoration: none;
+    color: #e3bb36;
+}
+
+.logo > a:visited {
+    text-decoration: none;
+    color: #e3bb36;
+}
+
+.navigation {
+    font-size: 14px;
+    padding-top: 55px;
+    
+}
+
+.navigation > a {
+    text-decoration: none;
+    font-family: 'montserratregular';
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+    padding: 0 22px;
+}
+
+.navigation > a:active {
+    text-decoration: none;
+    font-family: 'montserratregular';
+    font-size: 14px;
+}
+
+.navigation > a:visited {
+    text-decoration: none;
+    font-family: 'montserratregular';
+    font-size: 14px;
+}
+
+.title {
+    padding-top: 215px;
 }
 
 .title_header h3 {
@@ -56,11 +102,14 @@
     color: #fff;
     text-align: center;
     font-weight: normal;
+    padding-top: 53px;
 }
 
 .btn {
     display: flex;
     justify-content: center;
+    padding-top: 61px;
+    padding-bottom: 162px;
 }
 
 .btn > button {
