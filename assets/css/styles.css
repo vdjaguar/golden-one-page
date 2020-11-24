@@ -21,6 +21,61 @@
     background-attachment: fixed;
 }
 
+.home > .container {
+    display: flex;
+    flex-direction: column;
+    width: 940px;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.navigation {
+    font-size: 14px;
+}
+
+.logo {
+    font-size: 26px;
+}
+
+.title_header h3 {
+    font-family:'droid_serifitalic';
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+}
+
+.title_desc h2 {
+    font-size: 75px;
+    font-family: 'montserratbold';
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn > button {
+    width: 240px;
+    height: 65px;
+    background: #fed136;
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+
+
 
 
 /*Header/*/
