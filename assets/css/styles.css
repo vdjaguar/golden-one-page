@@ -8,7 +8,8 @@
 }
 /*Header*/
 
-.home {
+/*.home {
+    display: flex;
     width: 1400px;
     max-width: 100%;
     height: 700px;
@@ -25,6 +26,12 @@
 /*Header/*/
 .comtainer_two{
     text-align: center;
+    padding-bottom: 60px;
+}
+.comtainer_two_pro{
+    padding-top: 1px;
+    text-align: center;
+    background-color: rgb(230, 254, 255);
 }
 .container{
     width: 940px;
@@ -37,18 +44,29 @@
     margin-top: 120px;
     width: 100%;
     text-align: center;
+    margin-bottom: 80px;
+}
+.content_element{
+    font-family: 'montserratbold';
+    font-size: 16px;
+    margin: 10px;
+}
+#content_element_item{
+    font-family: 'droid_serifitalic';
 }
 #services, .blok_title {
     font-size: 32px;
     text-transform: uppercase;
-
+    font-family: 'montserratbold';
 }
 .service_blok{
     display: flex;
     padding-top: 80px;
 }
 .service_blok_item{
-    padding: 0 5px;
+    padding: 0 2px;
+    font-family: 'roboto_slabregular';
+    margin: 7px;
 }
 .blok_desc{
 
@@ -58,18 +76,20 @@
     flex-wrap: wrap;
 }
 .content_item{
-    width: 33.33%;
-    
+    width: 33.33%; 
 }
 body{
     font-family: 'montserratregular';
 }
-/*General/*/
-
-
-
-
-
+.blok_desc{
+    display: block;
+    padding-top: 10px;
+    font-family: 'droid_serifitalic';
+}
+.service_blok_item>h4{
+    display: block;
+    margin: 10px;
+}
 /*Fonts
     font-family: 'montserratregular';
     font-family: 'montserratbold';
