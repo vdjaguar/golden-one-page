@@ -122,9 +122,6 @@
     outline: none;
 }
 
-
-
-
 /*Header/*/
 .comtainer_two{
     text-align: center;
@@ -191,6 +188,39 @@ body{
 .service_blok_item>h4{
     display: block;
     margin: 10px;
+}
+.about{
+   max-width: 940px;
+   width: 100%;
+   margin: 0 auto;
+}
+.about_list{
+    display: flex;
+    flex-direction: column;
+}
+.about_item_list_left{
+    display: flex;
+ 
+}
+.about_item_list_right{
+    display: flex;
+    flex-flow: row-reverse;
+}
+.content_item{
+    width: 375px;
+    padding-top: 5%;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 14px;
+    font-family: 'roboto_slabregular';
+}
+.about_item{
+    align-items: center;
+    padding-top: 30px;
+}
+.content_item>h5{
+    font-size: 20px;
+    font-family: 'montserratbold';
 }
 
 /*Fonts
