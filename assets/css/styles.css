@@ -125,12 +125,12 @@
 /*Header/*/
 .comtainer_two{
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 108px;
 }
 .comtainer_two_pro{
     padding-top: 1px;
     text-align: center;
-    background-color: rgb(230, 254, 255);
+    background-color: #f7f7f7;
 }
 .container{
     width: 940px;
@@ -140,10 +140,9 @@
 
 .header_blok{
     display: block;
-    margin-top: 120px;
+    margin-top: 116px;
     width: 100%;
     text-align: center;
-    margin-bottom: 80px;
 }
 .content_element{
     font-family: 'montserratbold';
@@ -160,15 +159,15 @@
 }
 .service_blok{
     display: flex;
-    padding-top: 80px;
+    padding-top: 67px;
 }
 .service_blok_item{
     padding: 0 2px;
     font-family: 'roboto_slabregular';
     margin: 7px;
-}
-.blok_desc{
-
+    color: #777777;
+    font-size: 14px;
+    line-height: 1.5;
 }
 .content{
     display: flex;
@@ -183,11 +182,15 @@ body{
 .blok_desc{
     display: block;
     padding-top: 10px;
+    color: #777777;
     font-family: 'droid_serifitalic';
 }
-.service_blok_item>h4{
+.service_blok_item > h4 {
     display: block;
     margin: 10px;
+    font-family: 'montserratbold';
+    font-weight: normal;
+    color: #222222;
 }
 .about{
    max-width: 940px;
