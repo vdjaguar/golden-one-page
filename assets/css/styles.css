@@ -197,17 +197,17 @@ body{
 .about_list{
     display: flex;
     flex-direction: column;
+
 }
 .about_item_list_left{
     display: flex;
- 
+
 }
 .about_item_list_right{
     display: flex;
     flex-flow: row-reverse;
 }
 .content_item{
-    width: 375px;
     padding-top: 5%;
     padding-left: 40px;
     padding-right: 40px;
@@ -217,12 +217,15 @@ body{
 .about_item{
     align-items: center;
     padding-top: 30px;
+  
 }
 .content_item>h5{
     font-size: 20px;
     font-family: 'montserratbold';
 }
-
+.content_widht{
+    width: 375px;
+}
 /*Fonts
     font-family: 'montserratregular';
     font-family: 'montserratbold';
