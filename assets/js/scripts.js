@@ -26,4 +26,35 @@ $(function() {
 			statusBarOnScroll('.progress-scroll__inner');
 		});
 	/*Scroll status/ */
+	
+	/*Modal window*/
+		/*Variables*/
+			let speed    = 300;
+			let btnClick = '#btn-click';
+			let btnClose = '.modal-wnd__close';
+			let wndModal = '.modal-wnd';
+		/*Variables/ */
+	
+		/*Show modal*/
+			$(btnClick).on('click', function () {
+				$(wndModal).fadeIn(speed);
+			});
+		/*Show modal/ */
+	
+		/*Close modal*/
+			$(btnClose).on('click', function () {
+				$(wndModal).fadeOut(speed);
+			});
+		/*Close modal/ */
+	/*Modal window/ */
+	
+	/*PLaceholder*/
+		$('input,textarea').focus(function(){
+			$(this).data('placeholder',$(this).attr('placeholder'));
+			$(this).attr('placeholder','');
+		});
+		$('input,textarea').blur(function(){
+			$(this).attr('placeholder',$(this).data('placeholder'));
+		});
+	/*PLaceholder/ */
 });

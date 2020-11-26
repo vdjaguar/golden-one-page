@@ -251,6 +251,153 @@ body{
     height: 7px;
     background: #0d95e8;
 }
+
+/*Modal*/
+    .modal-wnd {
+        display: none;
+        position: fixed;
+        z-index: 9999;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6);
+    }
+    .modal-wnd__inwrap {
+        position: relative;
+        min-height: 100%;
+        
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .modal-wnd__body {
+        position: relative;
+        width: 800px;
+        padding: 100px;
+        background: #222222 url(../img/moda-bg.png) no-repeat top right;
+        background-size: contain;
+        color: #777777;
+        text-align: center;
+    }
+    .modal-wnd__title {
+        font-family: 'montserratbold';
+        font-size: 40px;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+    .modal-wnd__desc {
+        padding-top: 11px;
+        margin-bottom: 30px;
+        font-family: 'droid_serifitalic';
+        font-size: 16px;
+    }
+    
+    .form-modal__input {
+        width: 100%;
+        padding: 18px 20px 14px;
+        background: #fff;
+        border: 1px solid #ccc;
+        outline: none;
+    
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+    }
+    
+    /*Placeholder*/
+        ::-webkit-input-placeholder{
+            font-family: 'montserratbold';
+            font-size: 14px;
+            color: #bbbbbb;
+            text-transform: uppercase;
+        }
+        ::-moz-placeholder{
+            font-family: 'montserratbold';
+            font-size: 14px;
+            color: #bbbbbb;
+            text-transform: uppercase;
+        }
+        :-moz-placeholder{
+            font-family: 'montserratbold';
+            font-size: 14px;
+            color: #bbbbbb;
+            text-transform: uppercase;
+        }
+        :-ms-input-placeholder{
+            font-family: 'montserratbold';
+            font-size: 14px;
+            color: #bbbbbb;
+            text-transform: uppercase;
+        }
+    /*Placeholder/ */
+    
+    /*Button*/
+        .form-modal__field-btn {
+            padding-top: 30px;
+        }
+        .form-modal__field-btn button {
+            padding: 24px 47px;
+            background: rgba(254, 209, 54, 1.0);
+            border: none;
+            outline: none;
+            font-family: 'montserratbold';
+            font-size: 18px;
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+            cursor: pointer;
+    
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+            
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -ms-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+        }
+        .form-modal__field-btn button:hover {
+            background: rgba(254, 209, 54, 0.9);
+        }
+    /*Button/ */
+
+    .modal-wnd__close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .modal-wnd__close i {
+        font-size: 26px;
+        color: #ffffff;
+        cursor: pointer;
+    
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    .modal-wnd__close i:hover {
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+/*Modal/ */
+
 /*Fonts
     font-family: 'montserratregular';
     font-family: 'montserratbold';
