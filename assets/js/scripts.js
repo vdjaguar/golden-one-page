@@ -48,7 +48,7 @@ $(function() {
 		/*Close modal/ */
 	/*Modal window/ */
 	
-	/*PLaceholder*/
+	/*Placeholder*/
 		$('input,textarea').focus(function(){
 			$(this).data('placeholder',$(this).attr('placeholder'));
 			$(this).attr('placeholder','');
@@ -56,5 +56,43 @@ $(function() {
 		$('input,textarea').blur(function(){
 			$(this).attr('placeholder',$(this).data('placeholder'));
 		});
-	/*PLaceholder/ */
+	/*Placeholder/ */
+	
+	/*Send from*/
+		/*Variables*/
+			let formName = '.form-modal';
+			let thanksMsg = '.thanks_msg';
+		/*Variables/ */
+	
+		$(formName).validate({
+			rules: {
+				email: {
+					required : true,
+					minlength: 3
+				}
+			},
+			messages: {
+				email: {
+					required: "Введите свой Email",
+					minlength: "Введите минимум 3 символов"
+				}
+			},
+			submitHandler: function(form){
+				var email = $(formName).find('input[type="email"]').val();
+				
+				$.post(
+					"/contact.php", {
+						email: email
+					}
+				),
+				$(thanksMsg).animate({opacity: 'show'}, 400);
+				
+				setTimeout(function(){
+					$(wndModal).animate({opacity: 'hide'}, 400);
+				},5000);
+				
+				$('input[type="email"]').val('');
+			}
+		});
+	/*Send from/ */
 });

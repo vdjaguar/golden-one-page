@@ -303,12 +303,25 @@ body{
         width: 100%;
         padding: 18px 20px 14px;
         background: #fff;
-        border: 1px solid #ccc;
+        border: 2px solid #ccc;
         outline: none;
     
         -webkit-border-radius: 2px;
         -moz-border-radius: 2px;
         border-radius: 2px;
+    }
+    .form-modal__input.error {
+        border-color: red;
+    }
+    
+    .thanks_msg {
+        display: none;
+        padding-top: 20px;
+        font-family: 'montserratbold';
+        font-size: 14px;
+        color: #ffffff;
+        text-align: center;
+        text-transform: uppercase;
     }
     
     /*Placeholder*/
@@ -397,6 +410,18 @@ body{
         -o-transform: scale(1.2);
         transform: scale(1.2);
     }
+    
+    /*Validate*/
+        input.error + .error {
+            display: block;
+            padding-top: 8px;
+            font-family: 'montserratregular';
+            font-size: 13px;
+            color: #fff;
+            font-weight: normal;
+            text-align: left;
+        }
+    /*Validate/ */
 /*Modal/ */
 
 /*Fonts
