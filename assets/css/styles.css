@@ -211,7 +211,7 @@ body{
     justify-content: flex-end;
 }
 .about_item_list_area {
-    width: 562px;
+    width: 581px;
     display: flex;
     flex-flow: row nowrap;
 }
@@ -229,6 +229,7 @@ body{
 }
 .content_widht {
     padding-top: 45px;
+    padding-top: 60px;
 }
 #text-left{
     text-align: right;
