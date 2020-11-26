@@ -236,6 +236,13 @@ body{
 .about_item_list_area>img{
     margin: 18px;
 }
+
+.progress-scroll {
+
+}
+.progress-scroll__inner {
+
+}
 /*Fonts
     font-family: 'montserratregular';
     font-family: 'montserratbold';
