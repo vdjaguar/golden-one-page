@@ -202,11 +202,12 @@ body{
     flex-direction: column;
 
 }
-.about_item_list_left{
+/*.about_item_list_left {
     display: flex;
-
+   
+    justify-content: flex-start;
 }
-.about_item_list_right{
+.about_item_list_right .about_item{
     display: flex;
     flex-flow: row-reverse;
 }
@@ -217,17 +218,48 @@ body{
     font-size: 14px;
     font-family: 'roboto_slabregular';
 }
-.about_item{
+/*.about_item {
     align-items: center;
     padding-top: 30px;
-  
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
 }
 .content_item>h5{
     font-size: 20px;
     font-family: 'montserratbold';
 }
-.content_widht{
-    width: 375px;
+.content_widht {
+    text-align: right;
+  
+}*/
+.about_list .about_item{
+    display: flex;
+    justify-content: flex-start;
+}
+.about_list_right .about_item{
+    justify-content: flex-end;
+}
+.about_item_list_area {
+    width: 562px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.about_list_right .about_item_list_area {
+    flex-flow: row-reverse nowrap;
+}
+.about_center{
+    align-items: center;
+}
+.content_widht {
+    padding-top: 45px;
+}
+#text-left{
+    text-align: right;
+   /* margin-right: 20px;*/
+}
+.about_item_list_area>img{
+    margin: 18px;
 }
 /*Fonts
     font-family: 'montserratregular';
